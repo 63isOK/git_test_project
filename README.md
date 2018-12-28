@@ -55,4 +55,5 @@
   git传输协议支持https git ssh
 
   工作目录下的文件状态
+![Gopher image](pic/file_state.png)
 
