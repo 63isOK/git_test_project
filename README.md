@@ -83,9 +83,8 @@
 
   `git config --global core.editor vim 指定默认编辑器为vim`
 
-
-
-
-
+  git commit 会打开编辑器，用于输入提交日志  
+  git commit -v 输入日志时，会提示具体哪些内容被修改  
+  git commit -m 不打开编辑器，直接写日志
 
 
