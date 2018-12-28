@@ -55,5 +55,10 @@
   git传输协议支持https git ssh
 
   工作目录下的文件状态
-![Gopher image](pic/file_state.png)
+![文件的4中状态转换](pic/file_state.png)
+```
+    git status # 插件文件状态
+    git add # 跟踪新文件，或将已跟踪的文件放到暂存区
+```
+
 
