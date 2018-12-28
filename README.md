@@ -97,3 +97,11 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
+
+```mermaid
+graph TD;
+  a-->b;
+  a--c;
+  b--d;
+  c--d;
+```
