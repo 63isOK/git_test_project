@@ -81,6 +81,10 @@
 
   `每次提交之前，都需要用git status查看修改是否按需提到暂存区`
 
+  `git config --global core.editor vim 指定默认编辑器为vim`
+
+
+
 
 
 
