@@ -74,7 +74,7 @@
 支持shell的glob模式，即简化的正则表达式
 
   如果要查看具体修改了哪些部分，可用diff
-```
+```shell
     git diff # 查看 工作区和暂存区的区别
     git diff --staged # 查看 暂存区和上一次提交的区别
 ```
@@ -96,4 +96,17 @@
   git rm --cached 只删除仓库文件，不删除当前目录下的文件，
 对将中间文件纳入跟踪的情况尤为有效
 
+  如果是git add把不想加到暂存区的文件添加了，
+可以使用git reset 修改暂存区
+
+  git log 查看提交历史，可以查提交日志  
+  git log -p 可以显示每次提交的差异  
+  git log -2 显示最近两次提交 限制输出长度
+  git log --stat 查看每次提交的简略统计信息
+  git log --pretty 按指定格式显示日志
+      oneline 一行显示，比较常用
+      format:"xxxx" 这个可以自定义输出格式
+      也可以带--graph，用图形的方式来显示
+
+  
   
